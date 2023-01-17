@@ -13,18 +13,17 @@
 # you will see them accessed via {{ site.title }}, {{ site.email }}, and so on.
 # You can create any custom variable you would like, and they will be accessible
 # in the templates via {{ site.myvariable }}.
-title: Zach Rottman, PhD
-email:
+title: DATADOODAD
 description: >- # this means to ignore newlines until "baseurl:"
-twitter_username:
+  Data science project portfolio
 github_username: zrottman
 minimal_mistakes_skin: contrast
 search: false
-url: https://zrottman.github.io
+url: www.zachrottman.net
 locale: en-US
-subtitle:
-name: Zach Rottman, PhD
-logo: assets/images/pyramid.jpg
+subtitle: 
+name: Zach Rottman
+#logo: assets/images/pyramid.jpg
 
 # Build settings
 markdown: kramdown
@@ -60,9 +59,12 @@ plugins:
   - jekyll-include-cache
 
 author:
-  name   : "Zach Rottman"
+  name   : "Zach Rottman, PhD"
   avatar : "/assets/images/bio-photo.jpg"
-  bio    : "Data Science, Web Development, Art History"
+  bio    : | 
+    Data Science <br>
+    Web Development <br>
+    Art History
   location: "Los Angeles, CA"
   links:
     - label: "GitHub"
@@ -92,7 +94,7 @@ defaults:
       read_time: true
       comments: false
       share: false
-      related: true
+      related: false
       show_date: true
       date_format: '%Y-%m-%d'
   # _pages

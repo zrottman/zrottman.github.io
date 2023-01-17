@@ -13,9 +13,14 @@ $sans-serif: monospace;
 $body-color : white;
 $background-color : white;
 $text-color : #230C0F;
-$link-color: #FF6700;
-$masthead-link-color: #FF6700;
-$primary-color: #FF6700;
+$link-color: #FE5F55;
+$masthead-link-color: #FE5F55;
+$masthead-link-color-hover: #18A999;
+$primary-color: #18A999;
+.list__item .page__meta {
+  color: #208AAE;
+}
+$muted-text-color: #18A999;
 
 /* type scale */
 $type-size-1 : 0.6rem;  // ~39.056px
@@ -28,12 +33,16 @@ $type-size-7 : 0.6rem; // ~11px
 $type-size-8 : 0.6rem;  // ~10px
 
 /* headline scale */
-$h-size-1: 0.6rem; // ~25.008px
+$h-size-1: 0.9rem; // ~25.008px
 $h-size-2: 0.6rem; // ~20px
 $h-size-3: 0.6rem; // ~18px
 $h-size-4: 0.6rem; // ~17px
 $h-size-5: 0.6rem; // ~16.5px
 $h-size-6: 0.6rem; // ~16px
+
+a {
+  text-decoration: none;
+}
 
 
 
@@ -42,3 +51,17 @@ $h-size-6: 0.6rem; // ~16px
 
 @import "minimal-mistakes/skins/{{ site.minimal_mistakes_skin | default: 'default' }}"; // skin
 @import "minimal-mistakes"; // main partials
+
+.page__content p {
+  font-size: .6rem;
+}
+.page__title, .page__title a, .greedy-nav a.site-title {
+  color: #18A999;
+  font-weight: normal;
+}
+p {
+  font-size: .6rem;
+}
+.sidebar li {
+  line-height: 1.5;
+}
