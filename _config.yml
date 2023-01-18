@@ -71,8 +71,11 @@ author:
       icon: "fab fa-fw fa-github"
       url: "https://github.com/zrottman"
     - label: "LinkedIn"
-      icon: "fab fa-linkedin"
+      icon: "fab fa-fw fa-linkedin"
       url: "https://www.linkedin.com/in/zrottman/"
+    - label: "Email"
+      icon: "fas fa-fw fa-envelope"
+      url: "mailto:zach.rottman@gmail.com"
 
 footer:
   links:
