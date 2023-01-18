@@ -3,7 +3,7 @@ title: "My Boy Is Sick (dot com)"
 excerpt: "My one-year-old started daycare, and we were under siege. This is one man's attempt to quantify the relentless onslaught of virus."
 header:
   teaser: /assets/images/myboyissick-teaser.jpg
-link: www.myboyissick.com
+link: https://www.myboyissick.com
 ---
 
 My one-year-old started daycare, and immediately we were under siege. Covid, RSV, Hand Foot and Mouth, your middling run-of-the-mill headcold--you name it, we had it.
