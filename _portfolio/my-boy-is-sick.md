@@ -4,6 +4,12 @@ excerpt: "My one-year-old started daycare, and we were under siege. This is one 
 header:
   teaser: /assets/images/myboyissick-teaser.jpg
 link: https://www.myboyissick.com
+tech:
+  - HTML/CSS
+  - PHP
+  - MySQL
+  - JavaScript
+github-link: https://github.com/zrottman/myboyissick
 ---
 
 My one-year-old started daycare, and immediately we were under siege. Covid, RSV, Hand Foot and Mouth, your middling run-of-the-mill headcold -- you name it, we had it.
