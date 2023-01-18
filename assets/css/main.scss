@@ -17,7 +17,8 @@ $link-color: #FE5F55;
 $masthead-link-color: #FE5F55;
 $masthead-link-color-hover: #18A999;
 $primary-color: #18A999;
-.list__item .page__meta {
+.list__item .page__meta, 
+.page .page__inner-wrap .page__meta {
   color: #208AAE;
 }
 $muted-text-color: #18A999;
@@ -76,4 +77,10 @@ p {
 .portfolio_meta h3 {
   display: inline;
   color: #18A999;
+}
+.series-intro {
+  color: #BBB;
+}
+.series-intro a {
+  color: #888;
 }

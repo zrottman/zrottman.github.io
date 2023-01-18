@@ -46,6 +46,10 @@ layout: default
             </nav>
           </aside>
         {% endif %}
+
+        {% if page.series-intro %}
+        <p class='series-intro'><i>{{ page.series-intro }}</i></p>
+        {% endif %}
         {{ content }}
 
         {% if page.tech %}                                                      
