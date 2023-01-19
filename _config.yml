@@ -74,7 +74,7 @@ author:
       icon: "fab fa-fw fa-linkedin"
       url: "https://www.linkedin.com/in/zrottman/"
     - label: "Medium"
-      icon: "fad fa-file-alt"
+      icon: "fas fa-quote-left"
       url: "https://medium.com/@zach.rottman"
     - label: "Email"
       icon: "fas fa-fw fa-envelope"
