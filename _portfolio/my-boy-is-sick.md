@@ -3,7 +3,7 @@ title: "My Boy Is Sick (dot com)"
 excerpt: "My one-year-old started daycare, and we were under siege. This is one man's attempt to quantify the relentless onslaught of virus."
 header:
   teaser: /assets/images/myboyissick-teaser.jpg
-link: https://www.myboyissick.com
+link: http://www.myboyissick.com
 tech:
   - HTML/CSS
   - PHP
