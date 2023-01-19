@@ -14,7 +14,7 @@ series-intro: >
 github-link: https://github.com/zrottman/data-exploration/blob/main/knoedler/01_transaction-volume.ipynb
 ---
 
-# Intro: Assessing Activity by Sales Volume
+# Assessing Activity by Sales Volume
 I've been curious to explore some art history-related datasets, so I thought I'd start with the [Getty Research Institute's Knoedler Stock Books](https://github.com/thegetty/provenance-index-csv/tree/main/knoedler), which contains over 40,000 sales records from the stock books of art dealer Knoedler & Co., which have been painstakingly transcribed. I'm not familiar with the dataset yet, however, so I'll start by answering a simple question that will give us a sense of the scope of the data. Based on when Knoedler acquired and sold artwork, when was the dealer most active?
 
 <!--more-->
