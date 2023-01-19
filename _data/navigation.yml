@@ -1,11 +1,11 @@
 main:
-  - title: "Posts"
+  - title: "Portfolio"
+    url: /portfolio/
+  - title: "Blog"
     url: /posts/
-  - title: "Series"
+  - title: "About"
+    url: /about/
+  - title: "Blog Series"
     url: /categories/
 #  - title: "Tags"
 #    url: /tags/
-  - title: "About"
-    url: /about/
-  - title: "Portfolio"
-    url: /portfolio/
