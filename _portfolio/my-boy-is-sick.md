@@ -16,7 +16,7 @@ My one-year-old started daycare, and immediately we were under siege. Covid, RSV
 
 These were grim times early on, dark days for sure. It was easy to get bent out of shape about the whole thing. Sure, we figured there would be a tough transition period and planned for it -- aborted naps, emotional drop-offs, unplanned pick-ups. Three weeks, maybe four, that's what I thought. Ha! We got hammered, all three of us.
 
-So to cope with the misery I decided I may as well quantify it all and build a little website about it: [www.myboyissick.com](www.myboyissick.com). I would not say my approach was scientifcally rigorous. 1 = sick, 0 = not-sick -- that's about as sophisticated as the illness tracking got. But perhaps it would give a desperate daddy a little insight into what was going on.
+So to cope with the misery I decided I may as well quantify it all and build a little website about it: [http://www.myboyissick.com](www.myboyissick.com). I would not say my approach was scientifcally rigorous. 1 = sick, 0 = not-sick -- that's about as sophisticated as the illness tracking got. But perhaps it would give a desperate daddy a little insight into what was going on.
 
 ![Screenshot of myboyissick.com](/assets/images/myboyissick-screenshot-large.png)
 
