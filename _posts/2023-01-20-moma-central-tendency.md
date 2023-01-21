@@ -5,6 +5,11 @@ category: Art Stats Illustrated
 tags:
   - EDA
   - MoMA
+tech:
+  - Python
+  - Pandas
+  - Matplotlib
+  - Seaborn
 series-intro: >
   In this series of posts, I review fundamental statistics concepts, which I
   illustrate using art-related datasets.

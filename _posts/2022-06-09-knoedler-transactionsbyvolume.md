@@ -6,6 +6,11 @@ category: Knoedler Stock Books
 tags:
   - EDA
   - Knoedler
+tech:
+  - Python
+  - Pandas
+  - Matplotlib
+  - Seaborn
 series-intro: >
   In this series of posts, I delve into the 
   <a href="https://github.com/thegetty/provenance-index-csv/tree/main/knoedler" 
