@@ -10,6 +10,7 @@ tech:
   - MySQL
   - JavaScript
 github-link: https://github.com/zrottman/myboyissick
+medium-link: https://medium.com/@zach.rottman/i-visualized-my-one-year-olds-relentless-daycare-bugs-and-it-calmed-me-down-b5dd2bed15de
 ---
 
 My one-year-old started daycare, and immediately we were under siege. Covid, RSV, Hand Foot and Mouth, your middling run-of-the-mill headcold -- you name it, we had it.
