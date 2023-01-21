@@ -11,7 +11,7 @@ series-intro: >
 github-link: https://github.com/zrottman/data-exploration/blob/main/art-stats/02_moma_central_tendency.ipynb
 ---
 
-# What is Central Tendency?
+# What is a Central Tendency?
 One of the fundamental things we can do using statistics is summarize a whole bunch of values with a single number. What we're interested in is a number that is representative of the larger set, a number that's typical or average. In other words, a number that speaks to a central tendency.
 
 <!--more-->
