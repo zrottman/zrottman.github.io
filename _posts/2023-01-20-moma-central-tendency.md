@@ -1,5 +1,5 @@
 ---
-title: "Art Stats Illustrated: Central Tendency"
+title: "Art Stats Illustrated: Measures of Central Tendency"
 excerpt_separator: "<!--more-->"
 category: Art Stats Illustrated
 tags:
