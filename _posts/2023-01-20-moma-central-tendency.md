@@ -80,3 +80,5 @@ With artists who were no longer alive at the time of acquisition, the distributi
 Last of all we have the mode, which specifies the most frequently occuring value. This is meaningless in the context of quantitative variables such as that which we've been looking at here. Does it really tell us anything to know that the most frequently occurring age of an artwork is? Probably not much.
 
 It's much more common to use the mode with categorical variables. For instance, if we wanted to see which artist was most represented amongst MoMA's painting collection? It's Picasso, with 55 paintings at MoMA--he's the most represented artist and thus most representative of the collection.
+
+![Painters most represented in MoMA's collection](/assets/images/moma-most-represented-painters.png)
