@@ -56,7 +56,7 @@ Now, we can see by looking at this that there are very few examples of paintings
 Because of this clustering of values on the left, the median would be a better and more robust representation of the central tendency here--robust meaning that it is less vulnerable to the outliers that we see on the right-hand side of the distribution, which, unlike the median, bias the mean in their direction. One can imagine an extreme scenario where MoMA, for some reason, acquires a medieval altarpiece--1,000 years, let's say, after the artist's death. This new datapoint would pull the mean up even higher, whereas the median would stay right where it is.
 
 
-#More Illustrations of Mean and Median: Artwork Age at Acquisition
+# More Illustrations of Mean and Median: Artwork Age at Acquisition
 I was also curious to look at artwork age at the time of acquisition--how new or old do paintings tend to be (that is, how many years after they were completed) when the museum buyst them?
 
 ![Painting Age at Acquisition](/assets/images/moma-painting-age-at-acquisition.png)
@@ -76,7 +76,7 @@ For artists who were alive at the time of acquisition, the majority of paintings
 With artists who were no longer alive at the time of acquisition, the distribution is much more symmetrical, with a median time of 46 years and a mean time of 47.5. This distribution is pretty intuitive, as well, since the work of artists who are no longer of living will, by necessity, be older. Nevertheless, it's curious to see just how much older the work tends to be.
 
 
-#Mode for Categorical Variables
+# Mode for Categorical Variables
 Last of all we have the mode, which specifies the most frequently occuring value. This is meaningless in the context of quantitative variables such as that which we've been looking at here. Does it really tell us anything to know that the most frequently occurring age of an artwork is? Probably not much.
 
 It's much more common to use the mode with categorical variables. For instance, if we wanted to see which artist was most represented amongst MoMA's painting collection? It's Picasso, with 55 paintings at MoMA--he's the most represented artist and thus most representative of the collection.
