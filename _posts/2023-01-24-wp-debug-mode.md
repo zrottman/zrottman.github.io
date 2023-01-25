@@ -2,6 +2,7 @@
 title: "How to Debug in WordPress"
 tags:
   - WordPress
+  - PHP
 exerpt_separator: "<!--more-->"
 ---
 
