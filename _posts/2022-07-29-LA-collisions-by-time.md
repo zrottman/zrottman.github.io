@@ -36,7 +36,7 @@ Here's some takeaways:
 ![Daily Traffic Collisions](/assets/images/traffic-collisions_daily.png)
 
 
-# 2. Thats somewhere around 3,500-5,000 collisions per month in pre-Covid days
+# 2. That's somewhere around 3,500-5,000 collisions per month in pre-Covid days
 ![Monthly Traffic Collisions](/assets/images/traffic-collisions_monthly.png)
 
 
