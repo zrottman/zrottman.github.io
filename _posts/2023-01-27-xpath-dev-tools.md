@@ -33,10 +33,10 @@ driver = webdriver.Chrome()
 driver.get('http://www.mywebsite.com')
 
 # Target element
-target_elements = driver.find_elements(By.XPATH, '//sample/xpath/to/targeted[@class="element"]')
-
-if len(target_elements) > 0:
-    # The element(s) were found, do something
+try:
+    target_element = driver.find_element(By.XPATH, '//sample/xpath/to/targeted[@class="element"]')
+except NoSuchElementException:
+    # Handle exception
 else:
-    # The element(s) were not found, handle accordingly
+    # Do something with target_element
 ```
