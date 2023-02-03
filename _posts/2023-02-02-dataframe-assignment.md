@@ -1,5 +1,5 @@
 ---
-title: "Troubleshooting Index-Based Selection and Assignment"
+title: "Troubleshooting Index-Based DataFrame Selection and Assignment in Pandas"
 tags:
   - Python
   - Pandas
