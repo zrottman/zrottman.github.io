@@ -16,6 +16,11 @@ series-intro: >
 github-link: https://github.com/zrottman/data-exploration/blob/main/art-stats/02_moma_central_tendency.ipynb
 ---
 
+<figure>
+<img src="/assets/images/art-stats_malevich-2.png" alt="Malevich Does Stats">
+<figcaption align='center'>Malevich painting of a statistician, created by DALL-E 2</figcaption>
+</figure>
+
 # What is a Central Tendency?
 One of the fundamental things we can do using statistics is summarize a whole bunch of values with a single number. What we're interested in is a number that is representative of the larger set, a number that's typical or average. In other words, a number that speaks to a central tendency.
 
