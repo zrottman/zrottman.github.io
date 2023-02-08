@@ -109,6 +109,16 @@ p, .page__content p {
   color: #208AAE;
 }
 
+figcaption {
+    width: 100%;
+}
+figure img {
+    margin-bottom: 0.3em;
+}
+figure {
+    margin: 1em 0;
+}
+
 
 /* sidebar */
 .social-icons .fas, .social-icons .fab, .social-icons .far, .social-icons .fal {
