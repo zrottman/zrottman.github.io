@@ -11,8 +11,8 @@ tech:
   - Matplotlib
   - Seaborn
 series-intro: >
-  In this series of posts, I brush up on my statistics by appling fundamental 
-  stats concepts to art-related datasets.
+  In this series of posts, I illustrate the fundamental stats concepts I'm teaching
+  myself with art-related datasets.
 github-link: https://github.com/zrottman/data-exploration/blob/main/art-stats/02_moma_central_tendency.ipynb
 ---
 
