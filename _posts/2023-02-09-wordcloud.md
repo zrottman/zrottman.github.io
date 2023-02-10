@@ -214,63 +214,6 @@ This is helpful to get a sense of how frequently various words (and pairs of wor
 
 Out of curiosity, let's see if there are noticeable auction price differences (in constant 2022 dollars) for some of these key words.
 
-```python
-# Create DataFrame slices based on title keyword matches
-dollar = warhol[warhol['title'].str.lower().str.contains('dollar sign').fillna(False)]
-flower = warhol[warhol['title'].str.lower().str.contains('flower').fillna(False)]
-selfportrait = warhol[warhol['title'].str.lower().str.contains('self portrait').fillna(False)]
-soup = warhol[warhol['title'].str.lower().str.contains('soup').fillna(False)]
-jackie = warhol[warhol['title'].str.lower().str.contains('jackie').fillna(False)]
-
-fig, axs = plt.subplots(5, 1, figsize=(10, 8), sharex=True)
-
-# Titles containing "Dollar"
-sns.boxplot(
-    data=dollar, x='price_realized_USD_constant_2022',
-    ax=axs[0], showfliers=False
-)
-axs[0].set_title('Title contains "Dollar"')
-axs[0].set_xlabel('')
-
-# Titles containing "Flower"
-sns.boxplot(
-    data=flower, x='price_realized_USD_constant_2022',
-    ax=axs[1], showfliers=False
-)
-axs[1].set_title('Title contains "Flower"')
-axs[1].set_xlabel('')
-
-# Titles containing "Self Portrait"
-sns.boxplot(
-    data=selfportrait, x='price_realized_USD_constant_2022',
-    ax=axs[2], showfliers=False
-)
-axs[2].set_title('Title contains "Self Portrait"')
-axs[2].set_xlabel('')
-
-# Titles containing "Soup"
-sns.boxplot(
-    data=soup, x='price_realized_USD_constant_2022',
-    ax=axs[3], showfliers=False
-)
-axs[3].set_title('Title contains "Soup"')
-axs[3].set_xlabel('')
-
-# Titles containing "Jackie"
-sns.boxplot(
-    data=jackie, x='price_realized_USD_constant_2022',
-    ax=axs[4], showfliers=False
-)
-axs[4].set_title('Title contains "Jackie"')
-axs[4].set_xlabel('Realized Price (Constant 2022 USD)')
-
-
-# Set ticks and layout
-fig.tight_layout()
-axs[3].get_xaxis().set_major_formatter(mpl.ticker.StrMethodFormatter('${x:,.0f}'))
-axs[3].tick_params(axis='x', rotation=-45)
-```
-    
 ![Warhol Title Keywods Price Correlation](/assets/images/warhol_title-keywords-price.png)
 
 Looks like Jackie O works fetch a higher median price than, for instance, Campbell's Soup works.
@@ -293,36 +236,6 @@ plt.axis('off');
 ![Warhol Medium Wordcloud](/assets/images/warhol_medium-wordcloud.png)
 
 For fun, let's look at how realized price varies based on media.
-
-```python
-# Create DataFrame slices based on medium keywork matches
-canvas = warhol[warhol['medium'].str.lower().str.contains('canvas').fillna(False)]
-paper = warhol[warhol['medium'].str.lower().str.contains('paper').fillna(False)]
-
-fig, axs = plt.subplots(2, 1, figsize=(10, 4), sharex=True)
-
-# Medium contains "paper"
-sns.boxplot(
-    data=paper, x='price_realized_USD_constant_2022',
-    ax=axs[0], showfliers=False
-)
-axs[0].set_title('Medium contains "paper"')
-axs[0].set_xlabel('')
-
-# Medium contains "canvas"
-sns.boxplot(
-    data=canvas, x='price_realized_USD_constant_2022',
-    ax=axs[1], showfliers=False
-)
-axs[1].set_title('Medium contains "canvas"')
-axs[1].set_xlabel('Realized Price (Constant 2022 USD)')
-
-
-# Set ticks and layout
-fig.tight_layout()
-axs[1].get_xaxis().set_major_formatter(mpl.ticker.StrMethodFormatter('${x:,.0f}'))
-axs[1].tick_params(axis='x', rotation=-45);
-```
 
 ![Warhol Medium Keyword Price Correlation](/assets/images/warhol_medium-keywords-price.png)
     
