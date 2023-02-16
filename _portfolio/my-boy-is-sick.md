@@ -1,6 +1,6 @@
 ---
 title: "My Boy Is Sick (dot com)"
-excerpt: "My one-year-old started daycare, and we were under siege. This is one man's attempt to quantify the relentless onslaught of virus."
+excerpt: "My one-year-old started daycare, and we were under siege. This is one man's attempt to quantify misery."
 header:
   teaser: /assets/images/sick-family-crayon-4-cropped.png
 link: http://www.myboyissick.com
