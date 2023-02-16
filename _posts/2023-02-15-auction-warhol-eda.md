@@ -26,7 +26,7 @@ Now that I have a better sense of how the various features in this dataset relat
 </figure>
 
 # Introductory Notes
-Much of this analysis follows a similar trajectory as [the more general EDA I've done for this dataset/assets/images/https://github.com/zrottman/art_auction/blob/main/03-01_EDA.ipynb), except this time with an eye towards the specific logic of Andy Warhol's painting market for the past 30-40 years. As with the general EDA for this project, I have opted to use constant 2022 dollars rather than nominal dollars from each observation's given auction year in order to eliminate the inflation variable from analysis to the extent that this is possible. This means that price differences we see in similar artworks *should* be a function of Warhol's painting market accruing value.
+Much of this analysis follows a similar trajectory as [the more general EDA I've done for this dataset](/assets/images/https://github.com/zrottman/art_auction/blob/main/03-01_EDA.ipynb), except this time with an eye towards the specific logic of Andy Warhol's painting market for the past 30-40 years. As with the general EDA for this project, I have opted to use constant 2022 dollars rather than nominal dollars from each observation's given auction year in order to eliminate the inflation variable from analysis to the extent that this is possible. This means that price differences we see in similar artworks *should* be a function of Warhol's painting market accruing value.
 
 # 1. Warhol's Auction Price Distribution is Positively Skewed but Log-Normal
 As with the more general dataset, Warhol's auction prices show an aggressively positive skew but are log normal.
