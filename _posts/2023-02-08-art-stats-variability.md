@@ -14,7 +14,9 @@ tech:
 series-intro: >
   In this series of posts, I illustrate the fundamental stats concepts I'm teaching
   myself with art-related datasets.
-github-link: https://github.com/zrottman/data-exploration/blob/main/art-stats/03_measures-of-variability.ipynb
+customlinks:
+  - label: GitHub Repo
+    url: https://github.com/zrottman/data-exploration/blob/main/art-stats/03_measures-of-variability.ipynb
 ---
 
 # What's Variability?

@@ -15,7 +15,9 @@ tech:
 series-intro: >
   In this series of posts, I illustrate the fundamental stats concepts I'm teaching
   myself with art-related datasets.
-github-link: https://github.com/zrottman/data-exploration/blob/main/art-stats/02_moma_central_tendency.ipynb
+customlinks:
+  - label: GitHub Repo
+    url: https://github.com/zrottman/data-exploration/blob/main/art-stats/02_moma_central_tendency.ipynb
 ---
 
 # What's a Central Tendency?

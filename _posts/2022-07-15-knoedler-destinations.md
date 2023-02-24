@@ -19,7 +19,9 @@ series-intro: >
   target="_blank">Getty Research Institute's Knoedler Stock Books</a> dataset, 
   which contains over 40,000 sales records from the stockbooks of art dealer M. 
   Knoedler & Co. dating from 1872–1970.
-github-link: https://github.com/zrottman/data-exploration/blob/main/knoedler/06_US-destinations_2.ipynb
+customlinks:
+  - label: GitHub Repo
+    url: https://github.com/zrottman/data-exploration/blob/main/knoedler/06_US-destinations_2.ipynb
 ---
 
 # Mapping Artwork Destinations in the U.S.

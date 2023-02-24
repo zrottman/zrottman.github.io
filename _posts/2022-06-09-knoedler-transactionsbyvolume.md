@@ -17,7 +17,9 @@ series-intro: >
   target="_blank">Getty Research Institute's Knoedler Stock Books</a> dataset, 
   which contains over 40,000 sales records from the stockbooks of art dealer M. 
   Knoedler & Co. dating from 1872–1970.
-github-link: https://github.com/zrottman/data-exploration/blob/main/knoedler/01_transaction-volume.ipynb
+customlinks: 
+  - label: GitHub Repo
+    url: https://github.com/zrottman/data-exploration/blob/main/knoedler/01_transaction-volume.ipynb
 ---
 
 # Assessing Activity by Sales Volume

@@ -8,7 +8,9 @@ tech:
   - Pandas
   - Seaborn
   - Matplotlib
-github-link: https://github.com/zrottman/art_auction
+customlinks:
+  - label: GitHub Repo
+    url: https://github.com/zrottman/art_auction
 ---
 
 So much of what determines an artwork's value (and it's monetary value, too) has to do with features that are not readily quantifiable. Things like an artwork's historical significance or significance within an artist's oeuvre. The prestige of its provenance or exhibition history. Its renown. The extent to which it may be typical of, or else deviate from, an artist's dominant tendencies--in general or at a during a specific period--either of which may make it more or less desireable. Imperfections which may likewise either augment its scarcity or else invalidate it. Its beauty, if that's your thing. Things, in short, that belong to the domain of connoiseurship and result from deep intuitition about art history and the small and exclusive domain of art collectors. 

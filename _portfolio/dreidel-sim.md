@@ -9,7 +9,9 @@ tech:
   - NumPy
   - Seaborn
   - Matplotlib
-github-link: https://github.com/zrottman/dreidel-simulator
+customlinks:
+  - label: GitHub Repo
+    url: https://github.com/zrottman/dreidel-simulator
 ---
 
 It was the fifth night of Channukah, and I was shooting dreidel with the boys, which got me thinking: how long is this game gonna take? Do we have time to finish this--before latkes? Before night six? Before the new year?

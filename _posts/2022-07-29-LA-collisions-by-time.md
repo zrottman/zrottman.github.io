@@ -17,7 +17,9 @@ series-intro: >
   Los Angeles Traffic Collision Data</a> dataset published by the City of Los 
   Angeles, which contains almost 600,000 observations of reported traffic 
   collisions from 2010 to present.
-github-link: https://github.com/zrottman/data-exploration/tree/main/LA_traffic_accidents
+customlinks:
+  - label: GitHub Repo
+    url: https://github.com/zrottman/data-exploration/tree/main/LA_traffic_accidents
 ---
 
 # The Question

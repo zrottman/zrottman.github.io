@@ -12,7 +12,9 @@ tech:
   - NumPy
 series-intro: >
   A series of posts related to an art auction price model project. 
-github-link: https://github.com/zrottman/art_auction/blob/main/03-01_EDA.ipynb
+customlinks:
+  - label: GitHub Repo
+    url: https://github.com/zrottman/art_auction/blob/main/03-01_EDA.ipynb
 ---
 
 # Art Auction Data: Exploratory Data Analysis

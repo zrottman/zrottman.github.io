@@ -4,7 +4,9 @@ tags:
   - Python
   - Pandas
 exerpt_separator: "<!--more-->"
-github-link: https://github.com/zrottman/data-exploration/blob/main/blog/word-cloud.ipynb
+customlinks:
+  - label: GitHub Repo
+    url: https://github.com/zrottman/data-exploration/blob/main/blog/word-cloud.ipynb
 ---
 
 I'm working on a machine learning project that will model auction prices for paintings. Based on some domain knowledge, I have a solid intuition that certain keywords included in the artwork `title` and `medium` features will be useful in predicting price outcomes. My eventual plan is to use `sklearn.feature_extraction.text.TfidfVectorizer` to create features from the words in each of these fields, but before doing that I thought it would be helpful to get a better sense of what the most frequently-occurring words even were.

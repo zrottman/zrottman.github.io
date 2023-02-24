@@ -10,7 +10,9 @@ tech:
   - Matplotlib
   - Seaborn
   - NumPy
-github-link: https://github.com/zrottman/data-exploration/blob/main/artmuseums/01_moma-trending-conservative-or-progressive.ipynb
+customlinks:
+  - label: GitHub Repo
+    url: https://github.com/zrottman/data-exploration/blob/main/artmuseums/01_moma-trending-conservative-or-progressive.ipynb
 ---
 
 # MoMA's Acquisition Practices: Progressive or Conservative?
