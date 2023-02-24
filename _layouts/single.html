@@ -63,15 +63,9 @@ layout: default
 
         {% if page.customlinks %}
             {% for customlink in page.customlinks %}
-            <div>
-                <a href='{{ customlink.url }}' target='_blank'>{{ customlink.label }}</a>
-            </div>
+            <div><a href="{{ customlink.url }}" class="btn btn--primary" target="_blank">{{ customlink.label }}</a></div>
             {% endfor %}
         {% endif %}
-
-        {% if page.github-link %}<div><a href="{{ page.github-link }}" class="btn btn--primary">GitHub Repo</a></div>{% endif %}
-
-        {% if page.medium-link %}<div><a href="{{ page.medium-link }}" class="btn btn--primary">Medium.com</a></div>{% endif %}
 
         {% if page.link %}<div><a href="{{ page.link }}" class="btn btn--primary">{{ site.data.ui-text[site.locale].ext_link_label | default: "Direct Link" }}</a></div>{% endif %}
       </section>
