@@ -2,7 +2,7 @@
 title: "Art Auction Price Modeler"
 excerpt: "An ongoing project to model art auction prices using scraped auction data from the past ~40 years."
 header:
-  teaser: /assets/images/art-auction_DALLE-1.png
+  teaser: /assets/images/auction-price-model_screenshot.png
 tech:
   - Python
   - Pandas

@@ -2,7 +2,7 @@
 title: "An Empirical Approach to Dreidel"
 excerpt: "I was twirling the dreidel with the boys and got to thinking: How long is this game gonna take, anyway?"
 header:
-  teaser: /assets/images/dreidel-robot-3-cropped.png
+  teaser: /assets/images/dreidel_screenshot.png
 tech:
   - Python
   - Pandas

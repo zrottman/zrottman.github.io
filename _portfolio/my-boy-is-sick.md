@@ -2,7 +2,7 @@
 title: "My Boy Is Sick"
 excerpt: "My one-year-old started daycare, and we were under siege. This is one man's attempt to quantify misery."
 header:
-  teaser: /assets/images/sick-family-crayon-4-cropped.png
+  teaser: /assets/images/myboyissick_screenshot.png
 link: http://www.myboyissick.com
 tech:
   - HTML/CSS
